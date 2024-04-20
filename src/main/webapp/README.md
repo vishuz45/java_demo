@@ -1,21 +1,39 @@
 For This CI/CD Task I made the project of maven
+
 In this project first of all i made the configuration and installation of jenkins on ubuntu server using cloud service ec2 of AWS
+
 i launch one sevrer using name jenkins 
+
 after the installation of jenkins i made one maven project in jenkins and make its configuration
+
 after that i setup git and make one repo in github 
+
 for connectivity of github and jenkins i used the concept of github "webhook"
+
 i connect jenkins and github with webhook so it can work when i push the code it will going to run directly on jenkins 
+
 for this work to implement this project ,in jenkins project configuration i download the plugins which we need to execute for this task 
+
 i installed this plugins like maven plugins from the jenkins plugins section 
+
 after this i setup inportant build in process put git repo code link in project configuration giving proper bild commands like root pom 
+
 for this we are build file pom.xml
+
 after all this configuration and setups i did simple coding in html language
+
 after the push from git the code goes in gihub repo and with help of webhook it trigger in jenkins project and concole output come as success
+
 after this all i made testing building configuration in jenkins for this i used "maven" for build the code and also for testing used "junit"
+
 so after code get test and build successfully i deployed it on tomcat sevrers
+
 i made installation of tomcat on jenkins server that i launched in aws after this installation 
+
 after all this aur maven give the output of our code in .war file which we are going to use it for deployment 
+
 so after add this all .war files and tomcat links in jenkins project configuration 
+
 i successfully deployed it on live sevrer 
 
 so all the screenshots of this project i send you in one pdf file 
